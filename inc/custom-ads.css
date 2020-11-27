@@ -1,0 +1,73 @@
+h1.entry-title{
+	clear: none;
+	margin: 0;
+	text-transform: uppercase;
+}
+.published-meta p{
+	font-style: italic;
+	margin: 0;
+}
+.tax-terms{
+	padding: 0 30px;
+}
+.entry-header img{
+	margin: 10px 20px;
+	float: right;
+}
+/*
+button{
+	padding: 10px !important;
+	background: #000;
+}
+*/
+.entry .entry-content > *{
+	max-width: 100% !important;
+}
+.tax-col{
+	background-color: #f4f4f4;
+}
+.tax-col img{
+	padding: 20px 0;
+}
+.custom-ad-post{
+	padding: 20px 0 !important;
+}
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF TWO  */
+.span_2_of_2 {
+	width: 100%;
+}
+.span_1_of_2 {
+	width: 49.2%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.span_2_of_2, .span_1_of_2 { width: 100%; }
+}
+@media only screen and (min-width: 1168px){
